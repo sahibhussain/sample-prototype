@@ -1,0 +1,24 @@
+{
+  "originHash" : "26c127e0bf02fc566e75f347bf2b4f2e31d78ee73d92a74c977142462a4d070c",
+  "pins" : [
+    {
+      "identity" : "alamofire",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/Alamofire/Alamofire.git",
+      "state" : {
+        "revision" : "513364f870f6bfc468f9d2ff0a95caccc10044c5",
+        "version" : "5.10.2"
+      }
+    },
+    {
+      "identity" : "shnetwork",
+      "kind" : "remoteSourceControl",
+      "location" : "https://github.com/sahibhussain/SHNetwork.git",
+      "state" : {
+        "revision" : "beb5334e313aa52cbecd28d97471ae935395967d",
+        "version" : "1.4.1"
+      }
+    }
+  ],
+  "version" : 3
+}

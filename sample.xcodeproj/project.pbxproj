@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		1A5555272DAEB73300431929 /* SHNetwork in Frameworks */ = {isa = PBXBuildFile; productRef = 1A5555262DAEB73300431929 /* SHNetwork */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1A5555102DAEADD700431929 /* sample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -23,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1A5555272DAEB73300431929 /* SHNetwork in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +70,7 @@
 			);
 			name = sample;
 			packageProductDependencies = (
+				1A5555262DAEB73300431929 /* SHNetwork */,
 			);
 			productName = sample;
 			productReference = 1A5555102DAEADD700431929 /* sample.app */;
@@ -94,6 +100,9 @@
 			);
 			mainGroup = 1A5555072DAEADD700431929;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				1A5555252DAEB73300431929 /* XCRemoteSwiftPackageReference "SHNetwork" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = 1A5555112DAEADD700431929 /* Products */;
 			projectDirPath = "";
@@ -247,6 +256,7 @@
 				CODE_SIGN_ENTITLEMENTS = sample/sample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ND293B884;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -284,6 +294,7 @@
 				CODE_SIGN_ENTITLEMENTS = sample/sample.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6ND293B884;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
@@ -335,6 +346,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		1A5555252DAEB73300431929 /* XCRemoteSwiftPackageReference "SHNetwork" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/sahibhussain/SHNetwork.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.4.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		1A5555262DAEB73300431929 /* SHNetwork */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 1A5555252DAEB73300431929 /* XCRemoteSwiftPackageReference "SHNetwork" */;
+			productName = SHNetwork;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 1A5555082DAEADD700431929 /* Project object */;
 }
